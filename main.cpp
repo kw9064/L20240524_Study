@@ -9,11 +9,11 @@ int main()
 	int* Numbers = new int[10];
 	for (int i = 0; i < 10; ++i)
 	{
-		Numbers[1] = i + 1;
+		Numbers[i] = i + 1;
 	}
 	for (int i = 0; i < 10; ++i)
 	{
-		cout << Numbers[1] << ",";
+		cout << Numbers[i] << ",";
 	}
 
 	delete[] Numbers;
